@@ -45,3 +45,13 @@ const year = document.querySelector('#year');
 if (year) {
   year.textContent = new Date().getFullYear();
 }
+
+document.querySelectorAll('img[src^="images/"]').forEach((img) => {
+  img.addEventListener('error', () => {
+    if (!img.dataset.fallbackTried) {
+      img.dataset.fallbackTried = 'true';
+      const fallbackSrc = img.getAttribute('src').replace(/^images\//, '');
+      img.setAttribute('src', fallbackSrc);
+    }
+  });
+});
