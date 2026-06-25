@@ -523,7 +523,8 @@ h3 {
   overflow: hidden;
   border-radius: 38px;
   box-shadow: var(--shadow);
-  background: var(--cream-2);
+  background: linear-gradient(180deg, var(--cream-2), #f6efe2);
+  padding: 18px;
 }
 
 .about__media img {
@@ -531,7 +532,7 @@ h3 {
   height: auto;
   max-height: 760px;
   object-fit: contain;
-  object-position: center;
+  object-position: center center;
   display: block;
 }
 
