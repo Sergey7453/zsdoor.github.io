@@ -161,18 +161,21 @@
 
         <div class="about__copy">
           <p class="eyebrow eyebrow--large">ABOUT</p>
-          <h2>Experienced trade support for projects where reliability and finish matter.</h2>
+          <h2>Reliable door service for occupied buildings, active job sites, and time-sensitive repairs.</h2>
           <p class="lead">
-            Z&S Door Solutions works with clients who need door systems installed properly, completed on schedule, and left in working order.
+            Z&S Door Solutions helps businesses, homeowners, contractors, strata managers, and property managers with professional door repair, installation, maintenance, and hardware services across Greater Vancouver and the Lower Mainland.
           </p>
           <p>
-            We handle the details that matter on site: fit, hardware selection, access performance, and final adjustment. Whether the job is a single repair or a larger rollout, the standard is the same—solid execution.
+            We focus on clear communication, clean workmanship, proper fit, reliable hardware performance, and long-lasting results. Whether it is a small adjustment or a multi-door installation, we take every job seriously and complete the work with attention to detail.
+          </p>
+          <p>
+            Z&S Door Solutions is WorkSafeBC covered, giving clients confidence that the work is handled professionally and responsibly on site.
           </p>
 
           <div class="mini-stats">
             <div>
-              <strong>BC</strong>
-              <span>Serving Metro Vancouver and British Columbia</span>
+              <strong>Serving</strong>
+              <span>Greater Vancouver and the Lower Mainland</span>
             </div>
             <div>
               <strong>On-site</strong>
@@ -224,28 +227,78 @@
             </a>
             <div>
               <span>Service Area</span>
-              <strong>Metro Vancouver • Lower Mainland • British Columbia</strong>
+              <strong>Serving Greater Vancouver and the Lower Mainland</strong>
             </div>
           </div>
         </div>
 
         <form class="contact-form" action="mailto:zsdoor.solutions@gmail.com" method="post" enctype="text/plain">
+          <p class="contact-form__intro">
+            Need a repair, installation, or hardware solution? Send us the details and we’ll confirm the best next step. For urgent door issues, call 778-951-8488.
+          </p>
+
           <label>
             Name
             <input type="text" name="name" placeholder="Your name">
           </label>
 
           <label>
-            Phone or Email
-            <input type="text" name="contact" placeholder="Best way to reach you">
+            Phone
+            <input type="tel" name="phone" placeholder="Your phone number">
           </label>
 
           <label>
-            What do you need help with?
+            Email
+            <input type="email" name="email" placeholder="Your email address">
+          </label>
+
+          <label>
+            City / Area
+            <input type="text" name="city" placeholder="Vancouver, Burnaby, etc.">
+          </label>
+
+          <label>
+            Property type
+            <select name="property_type">
+              <option value="Residential">Residential</option>
+              <option value="Commercial">Commercial</option>
+              <option value="Strata">Strata</option>
+              <option value="Construction Site">Construction Site</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+
+          <label>
+            Service needed
+            <select name="service_needed">
+              <option value="Repair">Repair</option>
+              <option value="Installation">Installation</option>
+              <option value="Maintenance">Maintenance</option>
+              <option value="Hardware">Hardware</option>
+              <option value="Not sure">Not sure</option>
+            </select>
+          </label>
+
+          <label>
+            How urgent is it?
+            <select name="urgency">
+              <option value="Today">Today</option>
+              <option value="This week">This week</option>
+              <option value="Planning ahead">Planning ahead</option>
+            </select>
+          </label>
+
+          <label>
+            Describe the issue
             <textarea name="message" rows="5" placeholder="Example: door won’t latch, closer needs adjustment, new install..."></textarea>
           </label>
 
-          <button class="button button--primary" type="submit">Send request</button>
+          <label>
+            Upload photos
+            <input type="file" name="photos" multiple>
+          </label>
+
+          <button class="button button--primary" type="submit">Send Request</button>
         </form>
       </div>
     </section>
