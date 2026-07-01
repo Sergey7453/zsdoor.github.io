@@ -1,20 +1,20 @@
 :root {
-  --olive-900: #4a5736;
-  --olive-800: #64754b;
-  --olive-700: #75895b;
-  --olive-600: #899b6c;
-  --olive-500: #9baa7d;
-  --sage: #8ea66b;
-  --sage-dark: #6d7f4f;
-  --cream: #e7dbc4;
-  --cream-2: #f3ebdc;
-  --paper: #fcf7ea;
-  --sand: #d8c2a5;
+  --olive-900: #3d4f35;
+  --olive-800: #516647;
+  --olive-700: #678156;
+  --olive-600: #7c956a;
+  --olive-500: #8ea77e;
+  --sage: #a7bc93;
+  --sage-dark: #556b43;
+  --cream: #f3efe6;
+  --cream-2: #f8f5ed;
+  --paper: #fcfbf7;
+  --sand: #e7dfcf;
   --ink: #22311f;
-  --muted: #5d655a;
-  --line: #d9cfb7;
-  --shadow: 0 24px 78px rgba(34, 49, 31, 0.16);
-  --shadow-soft: 0 14px 40px rgba(34, 49, 31, 0.08);
+  --muted: #5f6758;
+  --line: #e3ddcf;
+  --shadow: 0 24px 78px rgba(34, 49, 31, 0.12);
+  --shadow-soft: 0 14px 40px rgba(34, 49, 31, 0.06);
   --radius-lg: 32px;
   --radius-md: 22px;
   --radius-sm: 14px;
@@ -48,9 +48,9 @@ body::before {
   inset: 0;
   pointer-events: none;
   background:
-    radial-gradient(circle at 10% 10%, rgba(142, 166, 107, 0.16), transparent 28%),
-    radial-gradient(circle at 90% 20%, rgba(231, 219, 196, 0.4), transparent 34%),
-    linear-gradient(180deg, rgba(255,255,255,0.55), transparent 24%);
+    radial-gradient(circle at 10% 10%, rgba(167, 188, 147, 0.18), transparent 28%),
+    radial-gradient(circle at 90% 20%, rgba(243, 239, 230, 0.9), transparent 34%),
+    linear-gradient(180deg, rgba(255,255,255,0.9), transparent 24%);
   z-index: -1;
 }
 
