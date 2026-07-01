@@ -6,8 +6,8 @@
   --olive-500: #8ea77e;
   --sage: #a7bc93;
   --sage-dark: #556b43;
-  --cream: #f3efe6;
-  --cream-2: #f8f5ed;
+  --cream: #f7f2e8;
+  --cream-2: #fcfaf5;
   --paper: #fcfbf7;
   --sand: #e7dfcf;
   --ink: #22311f;
@@ -232,7 +232,7 @@ p {
 h1 {
   max-width: 790px;
   margin-bottom: 22px;
-  font-size: clamp(2.35rem, 6vw, 5rem);
+  font-size: clamp(2rem, 5vw, 4.25rem);
   line-height: 0.92;
   letter-spacing: -0.085em;
 }
