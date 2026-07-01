@@ -232,7 +232,7 @@ p {
 h1 {
   max-width: 790px;
   margin-bottom: 22px;
-  font-size: clamp(2.75rem, 7vw, 5.9rem);
+  font-size: clamp(2.35rem, 6vw, 5rem);
   line-height: 0.92;
   letter-spacing: -0.085em;
 }
