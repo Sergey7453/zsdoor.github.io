@@ -1,11 +1,11 @@
 :root {
-  --olive-900: #35492f;
-  --olive-800: #4b6040;
-  --olive-700: #647d50;
-  --olive-600: #7c956a;
+  --olive-900: #30472a;
+  --olive-800: #455c3b;
+  --olive-700: #5f7548;
+  --olive-600: #768d5c;
   --olive-500: #8ea77e;
-  --sage: #a7bc93;
-  --sage-dark: #556b43;
+  --sage: #9fb777;
+  --sage-dark: #4e613a;
   --cream: #f7f2e8;
   --cream-2: #fcfaf5;
   --paper: #fcfbf7;
@@ -444,7 +444,7 @@ h3 {
 
 .featured-services img {
   width: 100%;
-  height: 260px;
+  height: 416px;
   object-fit: cover;
 }
 
