@@ -209,7 +209,7 @@
           <p class="eyebrow">Contact</p>
           <h2>Start with the next repair, replacement, or project scope.</h2>
           <p>
-            For installations, hardware upgrades, or urgent repairs, send the details and we will confirm the right approach quickly.
+            Need a repair, installation, or hardware solution? Send us the details and we’ll confirm the best next step. For urgent door issues, call 778-951-8488.
           </p>
 
           <div class="contact-cards">
@@ -235,16 +235,62 @@
           </label>
 
           <label>
-            Phone or Email
-            <input type="text" name="contact" placeholder="Best way to reach you">
+            Phone
+            <input type="tel" name="phone" placeholder="Your phone number">
           </label>
 
           <label>
-            What do you need help with?
-            <textarea name="message" rows="5" placeholder="Example: door won’t latch, closer needs adjustment, new install..."></textarea>
+            Email
+            <input type="email" name="email" placeholder="Your email address">
           </label>
 
-          <button class="button button--primary" type="submit">Send request</button>
+          <label>
+            City / Area
+            <input type="text" name="city_area" placeholder="City or area">
+          </label>
+
+          <label>
+            Property type
+            <select name="property_type">
+              <option value="Residential">Residential</option>
+              <option value="Commercial">Commercial</option>
+              <option value="Strata">Strata</option>
+              <option value="Construction Site">Construction Site</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+
+          <label>
+            Service needed
+            <select name="service_needed">
+              <option value="Repair">Repair</option>
+              <option value="Installation">Installation</option>
+              <option value="Maintenance">Maintenance</option>
+              <option value="Hardware">Hardware</option>
+              <option value="Not sure">Not sure</option>
+            </select>
+          </label>
+
+          <label>
+            How urgent is it?
+            <select name="urgency">
+              <option value="Today">Today</option>
+              <option value="This week">This week</option>
+              <option value="Planning ahead">Planning ahead</option>
+            </select>
+          </label>
+
+          <label>
+            Describe the issue
+            <textarea name="message" rows="5" placeholder="Describe the door issue or service needed"></textarea>
+          </label>
+
+          <label>
+            Upload photos
+            <input type="file" name="photos" multiple>
+          </label>
+
+          <button class="button button--primary" type="submit">Send Request</button>
         </form>
       </div>
     </section>
