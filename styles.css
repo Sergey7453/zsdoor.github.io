@@ -391,8 +391,7 @@ h3 {
 
 .hero__media {
   position: relative;
-  min-height: auto;
-  height: 100%;
+  width: 100%;
 }
 
 .hero__photo {
@@ -412,8 +411,8 @@ h3 {
 
 .hero__photo img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -422,17 +421,14 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100%;
   width: 100%;
 }
 
-/* present the main image as a centered square crop inside the existing box */
+/* present the main image without cropping */
 .hero__photo--main img {
   width: 100%;
   height: auto;
-  aspect-ratio: 1 / 1;
-  max-height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .floating-card {
