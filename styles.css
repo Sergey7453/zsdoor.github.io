@@ -78,6 +78,25 @@ body {
   font-weight: 800;
 }
 
+.utility-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.utility-icon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.utility-separator {
+  width: 1px;
+  height: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .utility-links a:hover {
   color: var(--sage);
 }
@@ -86,14 +105,6 @@ body {
 .utility-links a,
 .utility-links a:visited {
   color: var(--cream);
-}
-
-.utility-links a:first-child::after {
-  content: "";
-  margin-left: 18px;
-  width: 1px;
-  height: 20px;
-  background: rgba(255, 255, 255, 0.3);
 }
 
 .site-header {
