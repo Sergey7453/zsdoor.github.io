@@ -88,6 +88,14 @@ body {
   color: var(--cream);
 }
 
+.utility-links a:first-child::after {
+  content: "";
+  margin-left: 18px;
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .site-header {
   position: sticky;
   top: 0;
