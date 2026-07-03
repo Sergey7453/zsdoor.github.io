@@ -222,7 +222,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 0.94fr;
   gap: 64px;
-  align-items: center;
+  align-items: start;
 }
 
 .eyebrow {
@@ -383,7 +383,8 @@ h3 {
 
 .hero__media {
   position: relative;
-  min-height: 620px;
+  min-height: auto;
+  height: 100%;
 }
 
 .hero__photo {
@@ -411,11 +412,11 @@ h3 {
 }
 
 .hero__photo--main {
-  position: absolute;
-  inset: 0 0 0 54px;
+  position: static;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 640px;
 }
 
 /* present the main image as a centered square crop inside the existing box */
