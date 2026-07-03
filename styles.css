@@ -391,8 +391,6 @@ h3 {
   position: relative;
   overflow: hidden;
   border-radius: 42px;
-  border: 1px solid rgba(74, 87, 54, 0.1);
-  box-shadow: var(--shadow);
   background: var(--paper);
 }
 
