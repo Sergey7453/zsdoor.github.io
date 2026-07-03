@@ -390,7 +390,7 @@ h3 {
 .hero__photo {
   position: relative;
   overflow: hidden;
-  border-radius: 42px;
+  border-radius: 24px;
   background: var(--paper);
 }
 
@@ -414,7 +414,8 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 640px;
+  min-height: 100%;
+  width: 100%;
 }
 
 /* present the main image as a centered square crop inside the existing box */
