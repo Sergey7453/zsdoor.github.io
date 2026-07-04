@@ -315,11 +315,11 @@ h3 {
 }
 
 .button {
-  min-height: 47px;
+  min-height: 42.3px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 13px 19px;
+  padding: 11.7px 17.1px;
   border: 1px solid transparent;
   border-radius: 999px;
   font-weight: 900;
@@ -712,10 +712,10 @@ h3 {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border-radius: 38px;
+  border-radius: 34.2px;
   box-shadow: var(--shadow);
   background: var(--cream-2);
-  height: 659px;
+  height: 593.1px;
 }
 
 .about__media img {
@@ -727,7 +727,7 @@ h3 {
 }
 
 .lead {
-  font-size: 1.026rem;
+  font-size: 0.9234rem;
   color: var(--olive-700) !important;
   font-weight: 650;
 }
@@ -735,12 +735,12 @@ h3 {
 .mini-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 13px;
+  gap: 11.7px;
   margin: 25px 0;
 }
 
 .mini-stats div {
-  padding: 16px;
+  padding: 14.4px;
   background: var(--cream-2);
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -748,43 +748,43 @@ h3 {
 
 .mini-stats strong {
   display: block;
-  font-size: 1.35rem;
+  font-size: 1.215rem;
   color: var(--olive-900);
   line-height: 1;
 }
 
 .mini-stats span {
   display: block;
-  margin-top: 7px;
+  margin-top: 6.3px;
   color: var(--muted);
-  font-size: 0.79rem;
+  font-size: 0.711rem;
   font-weight: 750;
   line-height: 1.35;
 }
 
 .how-we-work {
   display: grid;
-  gap: 18px;
+  gap: 16.2px;
   margin: 24px 0;
 }
 
 .how-we-work__item {
   display: grid;
   grid-template-columns: 46px 1fr;
-  gap: 15px;
+  gap: 13.5px;
   align-items: start;
 }
 
 .how-we-work__number {
-  font-size: 1.26rem;
+  font-size: 1.134rem;
   font-weight: 900;
   color: var(--olive-900);
   line-height: 1;
 }
 
 .how-we-work__content h4 {
-  margin: 0 0 6px;
-  font-size: 0.924rem;
+  margin: 0 0 5.4px;
+  font-size: 0.8316rem;
   font-weight: 800;
   color: var(--olive-900);
 }
@@ -793,7 +793,7 @@ h3 {
   margin: 0;
   color: var(--muted);
   line-height: 1.6;
-  font-size: 0.95rem;
+  font-size: 0.855rem;
 }
 
 .process {
@@ -1112,27 +1112,27 @@ h3 {
 .badge-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 18px;
+  gap: 10.8px;
+  margin-top: 16.2px;
 }
 
 .pill-badge {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
-  padding: 11px 13px;
+  gap: 8.1px;
+  padding: 9.9px 11.7px;
   background: #fbf7ed;
   border: 1px solid rgba(215, 202, 183, 0.9);
   border-radius: 999px;
   color: var(--olive-900);
   font-weight: 700;
-  font-size: 0.855rem;
+  font-size: 0.7695rem;
 }
 
 .pill-badge__icon {
   display: inline-flex;
-  width: 16px;
-  height: 16px;
+  width: 14.4px;
+  height: 14.4px;
   color: var(--olive-900);
 }
 
