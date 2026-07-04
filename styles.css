@@ -543,13 +543,14 @@ h3 {
 .services {
   background: var(--cream-2);
   padding-top: 0;
+  padding-bottom: 47px;
 }
 
 .featured-services {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
 }
 
 .featured-services article {
@@ -582,22 +583,24 @@ h3 {
 .service-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8.5px;
 }
 
 .service-list span {
-  padding: 10px 13px;
+  padding: 8.5px 11px;
   background: rgba(255,255,255,0.8);
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--olive-700);
-  font-size: 0.9rem;
+  font-size: 0.765rem;
   font-weight: 850;
 }
 
 .sectors {
   background: var(--cream-2);
-  padding-top: 73.5px;
+  padding-top: 62.5px;
+  padding-bottom: 47px;
+}
 }
 
 .sector-grid {
@@ -618,7 +621,7 @@ h3 {
 
 .door-types {
   background: rgba(235, 231, 219, 0.75);
-  padding-top: 73.5px;
+  padding-top: 62.5px;
 }
 
 .door-types__grid {
