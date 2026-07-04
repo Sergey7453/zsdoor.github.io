@@ -605,8 +605,8 @@ h3 {
 .door-types__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-  margin-top: 28px;
+  gap: 15px;
+  margin-top: 24px;
 }
 
 .door-types article {
@@ -627,7 +627,7 @@ h3 {
 
 .door-types article img {
   width: 100%;
-  min-height: 320px;
+  min-height: 272px;
   object-fit: contain;
   object-position: center;
   display: block;
@@ -636,11 +636,11 @@ h3 {
 }
 
 .door-types article div {
-  padding: 22px;
+  padding: 19px;
 }
 
 .door-types article h3 {
-  margin: 0 0 10px;
+  margin: 0 0 8px;
   color: var(--olive-900);
 }
 
