@@ -679,6 +679,7 @@ h3 {
 .about {
   background: var(--paper);
   padding-top: 73.5px;
+  padding-bottom: 15px;
 }
 
 .about__grid {
@@ -745,27 +746,27 @@ h3 {
 
 .how-we-work {
   display: grid;
-  gap: 24px;
-  margin: 32px 0;
+  gap: 20px;
+  margin: 27px 0;
 }
 
 .how-we-work__item {
   display: grid;
-  grid-template-columns: 60px 1fr;
-  gap: 20px;
+  grid-template-columns: 51px 1fr;
+  gap: 17px;
   align-items: start;
 }
 
 .how-we-work__number {
-  font-size: 1.65rem;
+  font-size: 1.40rem;
   font-weight: 900;
   color: var(--olive-900);
   line-height: 1;
 }
 
 .how-we-work__content h4 {
-  margin: 0 0 8px;
-  font-size: 1.1rem;
+  margin: 0 0 7px;
+  font-size: 0.935rem;
   font-weight: 800;
   color: var(--olive-900);
 }
