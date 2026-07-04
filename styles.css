@@ -542,14 +542,15 @@ h3 {
 .services {
   background: var(--cream-2);
   padding-top: 0;
-  padding-bottom: 39.95px;
+  padding-bottom: 33.96px;
+  margin-top: -47px;
 }
 
 .featured-services {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12.8px;
-  margin-bottom: 9.6px;
+  gap: 10.88px;
+  margin-bottom: 8.16px;
 }
 
 .featured-services article {
@@ -562,12 +563,12 @@ h3 {
 
 .featured-services img {
   width: 100%;
-  height: 332.8px;
+  height: 282.88px;
   object-fit: cover;
 }
 
 .featured-services div {
-  padding: 17.6px;
+  padding: 14.96px;
 }
 
 .featured-services p,
