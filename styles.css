@@ -679,6 +679,20 @@ h3 {
   font-weight: 900;
 }
 
+.sector-grid h3 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.sector-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: var(--olive-900);
+}
+
 .about {
   background: var(--paper);
   padding-top: 73.5px;
