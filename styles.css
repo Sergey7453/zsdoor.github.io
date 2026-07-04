@@ -480,12 +480,16 @@ h3 {
 .section-heading {
   max-width: 780px;
   /* increase spacing beneath headings by 50%: 30px -> 45px */
-  margin-bottom: 45px;
+  margin-bottom: 22.5px;
 }
 
 .section-heading p {
   color: var(--muted);
-  font-size: 1.08rem;
+  font-size: 0.756rem;
+}
+
+.section-heading h2 {
+  font-size: clamp(1.4rem, 2.8vw, 2.555rem);
 }
 
 .section-heading--center {
@@ -517,7 +521,7 @@ h3 {
 }
 
 .services {
-  background: var(--cream);
+  background: #fef9f1;
 }
 
 .featured-services {
