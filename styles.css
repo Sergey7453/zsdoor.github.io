@@ -541,7 +541,7 @@ h3 {
 }
 
 .services {
-  background: #fef9f1;
+  background: var(--cream-2);
   padding-top: 0;
 }
 
