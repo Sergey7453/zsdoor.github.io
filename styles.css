@@ -694,7 +694,7 @@ h3 {
 
 .about {
   background: var(--paper);
-  padding-top: 73.5px;
+  padding-top: 62.5px;
   padding-bottom: 13px;
 }
 
@@ -702,7 +702,7 @@ h3 {
   display: grid;
   grid-template-columns: 0.92fr 1.08fr;
   gap: 58px;
-  align-items: center;
+  align-items: start;
 }
 
 .about__media {
@@ -713,6 +713,7 @@ h3 {
   border-radius: 38px;
   box-shadow: var(--shadow);
   background: var(--cream-2);
+  height: 659px;
 }
 
 .about__media img {
