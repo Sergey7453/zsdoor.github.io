@@ -941,7 +941,7 @@ h3 {
 
 .urgent-content h2 {
   margin: 0;
-  font-size: clamp(1.65rem, 2vw, 2.2rem);
+  font-size: clamp(1.485rem, 1.8vw, 1.98rem);
   color: var(--olive-900);
   line-height: 1.12;
 }
