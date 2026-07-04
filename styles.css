@@ -1538,7 +1538,7 @@ h3 {
 
 .footer__column--description p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.81rem;
   line-height: 1.6;
   color: rgba(254, 253, 249, 0.85);
 }
@@ -1549,7 +1549,7 @@ h3 {
 
 .footer__column--services h3 {
   margin: 0 0 12px 0;
-  font-size: 0.85rem;
+  font-size: 0.765rem;
   font-weight: 900;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -1574,7 +1574,7 @@ h3 {
 .footer__services-grid a {
   color: rgba(254, 253, 249, 0.8);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.81rem;
   transition: color 160ms ease;
 }
 
@@ -1588,7 +1588,7 @@ h3 {
 
 .footer__column--areas h3 {
   margin: 0 0 12px 0;
-  font-size: 0.85rem;
+  font-size: 0.765rem;
   font-weight: 900;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -1597,7 +1597,7 @@ h3 {
 
 .footer__areas-main {
   margin: 0 0 16px 0;
-  font-size: 0.95rem;
+  font-size: 0.855rem;
   font-weight: 600;
   color: rgba(254, 253, 249, 0.9);
 }
@@ -1613,7 +1613,7 @@ h3 {
 
 .footer__areas-list li {
   color: rgba(254, 253, 249, 0.8);
-  font-size: 0.9rem;
+  font-size: 0.81rem;
   line-height: 1.5;
 }
 
@@ -1640,7 +1640,7 @@ h3 {
 .footer__bottom-content p {
   margin: 0;
   color: rgba(254, 253, 249, 0.7);
-  font-size: 0.85rem;
+  font-size: 0.765rem;
 }
 
 .footer__bottom-links {
@@ -1651,7 +1651,7 @@ h3 {
 .footer__bottom-links a {
   color: rgba(254, 253, 249, 0.7);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.765rem;
   transition: color 160ms ease;
 }
 
