@@ -501,6 +501,9 @@ h3 {
 .problem {
   background: linear-gradient(135deg, var(--olive-900), var(--olive-700));
   color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  box-sizing: border-box;
 }
 
 .problem__center {
@@ -513,7 +516,8 @@ h3 {
   display: inline-block;
   white-space: nowrap;
   max-width: none;
-  font-size: clamp(1rem, 1.5vw, 1.3rem);
+  font-size: clamp(1.2rem, 1.8vw, 1.56rem);
+  line-height: 1.8;
 }
 
 .problem .eyebrow {
