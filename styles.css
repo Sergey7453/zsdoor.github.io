@@ -282,7 +282,7 @@ h2 {
 }
 
 .about__copy h2 {
-  font-size: clamp(1.62rem, 3.24vw, 2.956rem);
+  font-size: clamp(1.377rem, 2.754vw, 2.512rem);
 }
 
 .sectors .section-heading h2 {
@@ -718,9 +718,8 @@ h3 {
 
 .about__media img {
   width: 100%;
-  height: auto;
-  max-height: 760px;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
   object-position: center;
   display: block;
 }
@@ -783,7 +782,7 @@ h3 {
 
 .how-we-work__content h4 {
   margin: 0 0 6px;
-  font-size: 0.84rem;
+  font-size: 0.924rem;
   font-weight: 800;
   color: var(--olive-900);
 }
