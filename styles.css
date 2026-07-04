@@ -621,6 +621,8 @@ h3 {
 .door-types {
   background: rgba(235, 231, 219, 0.75);
   padding-top: 62.5px;
+  padding-bottom: 66.15px;
+  margin-top: -12.5px;
 }
 
 .door-types__grid {
