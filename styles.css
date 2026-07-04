@@ -984,22 +984,22 @@ h3 {
   width: 100%;
   min-width: 0;
   display: grid;
-  gap: 16px;
+  gap: 13.6px;
 }
 
 .contact-form__row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  gap: 10.2px;
 }
 
 .contact-form label {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6.8px;
   font-weight: 600;
   color: var(--olive-900);
-  font-size: 0.95rem;
+  font-size: 0.8075rem;
 }
 
 .contact-form input,
@@ -1007,22 +1007,22 @@ h3 {
 .contact-form textarea {
   width: 100%;
   box-sizing: border-box;
-  padding: 12px 14px;
+  padding: 10.2px 11.9px;
   border: 1px solid rgba(135, 115, 81, 0.2);
   border-radius: 8px;
   font-family: inherit;
-  font-size: 0.95rem;
+  font-size: 0.8075rem;
 }
 
 .contact-form textarea {
-  min-height: 120px;
+  min-height: 102px;
   resize: vertical;
 }
 
 .file-upload {
   border: 2px dashed rgba(135, 115, 81, 0.3);
   border-radius: 8px;
-  padding: 20px 14px;
+  padding: 17px 11.9px;
   text-align: center;
   cursor: pointer;
   transition: all 160ms ease;
