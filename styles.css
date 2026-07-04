@@ -281,6 +281,10 @@ h2 {
   letter-spacing: -0.065em;
 }
 
+.about__copy h2 {
+  font-size: clamp(1.8rem, 3.6vw, 3.285rem);
+}
+
 h3 {
   margin-bottom: 10px;
   font-size: 1.17rem;
