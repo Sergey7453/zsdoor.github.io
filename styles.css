@@ -534,6 +534,7 @@ h3 {
   max-width: none;
   font-size: clamp(1.2rem, 1.8vw, 1.56rem);
   line-height: 1.8;
+  word-spacing: 0.8em;
 }
 
 .problem .eyebrow {
