@@ -601,7 +601,6 @@ h3 {
   padding-top: 62.5px;
   padding-bottom: 47px;
 }
-}
 
 .sector-grid {
   display: grid;
@@ -1464,7 +1463,6 @@ h3 {
   }
 
   .featured-services,
-  .sector-grid,
   .steps,
   .door-types__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1614,7 +1612,6 @@ h3 {
   }
 
   .featured-services,
-  .sector-grid,
   .steps,
   .gallery,
   .mini-stats {
