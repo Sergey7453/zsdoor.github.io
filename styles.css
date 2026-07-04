@@ -522,7 +522,7 @@ h3 {
 }
 
 .problem__center {
-  max-width: 326px;
+  max-width: 731px;
   margin: 0 auto;
   text-align: center;
 }
@@ -530,7 +530,7 @@ h3 {
 .problem__center h2 {
   display: inline-block;
   white-space: nowrap;
-  max-width: 326px;
+  max-width: none;
   font-size: clamp(1.2rem, 1.8vw, 1.56rem);
   line-height: 1.8;
 }
