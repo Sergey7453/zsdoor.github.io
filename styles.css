@@ -933,8 +933,8 @@ h3 {
 .urgent-panel {
   display: grid;
   grid-template-columns: minmax(260px, 0.85fr) minmax(300px, 1.15fr);
-  gap: 30px;
-  padding: 48px 40px 48px 32px;
+  gap: 27px;
+  padding: 43px 36px 43px 29px;
   align-items: start;
   background: var(--cream-2);
 }
@@ -974,9 +974,9 @@ h3 {
 
 .contact-panel {
   display: grid;
-  grid-template-columns: minmax(240px, 0.8fr) minmax(420px, 1.2fr);
-  gap: 34px;
-  padding: 48px 32px 48px 40px;
+  grid-template-columns: minmax(216px, 0.8fr) minmax(378px, 1.2fr);
+  gap: 30px;
+  padding: 43px 29px 43px 36px;
   border-left: 1px solid rgba(56, 73, 43, 0.14);
   align-items: start;
   background: var(--cream-2);
@@ -985,12 +985,12 @@ h3 {
 .contact-intro {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 16px;
 }
 
 .contact-intro h2 {
   margin: 0;
-  font-size: clamp(1.65rem, 2vw, 2.2rem);
+  font-size: clamp(1.485rem, 1.8vw, 1.98rem);
   color: var(--olive-900);
   line-height: 1.12;
 }
@@ -1165,12 +1165,12 @@ h3 {
 
 .contact-final__form {
   display: grid;
-  gap: 16px;
+  gap: 14px;
 }
 
 .contact-final__form label {
   display: grid;
-  gap: 8px;
+  gap: 7px;
   color: var(--olive-900);
   font-weight: 800;
 }
@@ -1179,8 +1179,8 @@ h3 {
 .contact-final__form select,
 .contact-final__form textarea {
   width: 100%;
-  min-height: 48px;
-  padding: 14px 16px;
+  min-height: 43px;
+  padding: 13px 14px;
   border: 1px solid rgba(135, 115, 81, 0.24);
   border-radius: 14px;
   background: #fff;
@@ -1189,7 +1189,7 @@ h3 {
 }
 
 .contact-final__form textarea {
-  min-height: 112px;
+  min-height: 100px;
   resize: vertical;
 }
 
@@ -1205,7 +1205,7 @@ h3 {
 .form-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  gap: 14px;
 }
 
 .file-upload {
