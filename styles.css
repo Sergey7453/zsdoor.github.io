@@ -723,6 +723,40 @@ h3 {
   line-height: 1.35;
 }
 
+.how-we-work {
+  display: grid;
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.how-we-work__item {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.how-we-work__number {
+  font-size: 1.65rem;
+  font-weight: 900;
+  color: var(--olive-900);
+  line-height: 1;
+}
+
+.how-we-work__content h4 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--olive-900);
+}
+
+.how-we-work__content p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
 .work {
   background: linear-gradient(135deg, var(--olive-800), var(--olive-700));
   color: white;
