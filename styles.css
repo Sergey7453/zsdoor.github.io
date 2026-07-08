@@ -571,6 +571,10 @@ h3 {
   object-position: center 65%;
 }
 
+.featured-services article:nth-child(2) img {
+  object-position: center 35%;
+}
+
 .featured-services article:nth-child(3) img {
   object-position: center 65%;
 }
