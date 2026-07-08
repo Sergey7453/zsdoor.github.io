@@ -571,6 +571,11 @@ h3 {
   padding: 14.96px;
 }
 
+.featured-services article > h3 {
+  padding: 14.96px 14.96px 0 14.96px;
+  margin: 0;
+}
+
 .featured-services p,
 .sector-grid p,
 .steps p,
