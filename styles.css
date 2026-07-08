@@ -572,8 +572,10 @@ h3 {
 }
 
 .featured-services article > h3 {
-  padding: 14.96px 14.96px 0 14.96px;
-  margin: 0;
+  padding: 14.96px 14.96px 9px 14.96px !important;
+  margin: 0 !important;
+  text-align: center !important;
+  display: block !important;
 }
 
 .featured-services p,
