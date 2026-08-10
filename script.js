@@ -2,6 +2,17 @@ const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
 const brandLink = document.querySelector('.brand');
 
+function setNavState(isOpen) {
+  if (!navToggle || !navLinks) {
+    return;
+  }
+
+  navLinks.classList.toggle('is-open', isOpen);
+  navToggle.setAttribute('aria-expanded', String(isOpen));
+  navToggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+  document.body.classList.toggle('nav-open', isOpen);
+}
+
 if (brandLink) {
   brandLink.addEventListener('click', (event) => {
     event.preventDefault();
@@ -28,16 +39,41 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 });
 
 if (navToggle && navLinks) {
+  setNavState(false);
+
   navToggle.addEventListener('click', () => {
-    const isOpen = navLinks.classList.toggle('is-open');
-    navToggle.setAttribute('aria-expanded', String(isOpen));
+    const isOpen = !navLinks.classList.contains('is-open');
+    setNavState(isOpen);
   });
 
   navLinks.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
-      navLinks.classList.remove('is-open');
-      navToggle.setAttribute('aria-expanded', 'false');
+      setNavState(false);
     });
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!navLinks.classList.contains('is-open')) {
+      return;
+    }
+
+    const target = event.target;
+    if (target instanceof Node && !navLinks.contains(target) && !navToggle.contains(target)) {
+      setNavState(false);
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && navLinks.classList.contains('is-open')) {
+      setNavState(false);
+      navToggle.focus();
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 1020 && navLinks.classList.contains('is-open')) {
+      setNavState(false);
+    }
   });
 }
 
