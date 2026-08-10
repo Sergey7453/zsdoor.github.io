@@ -5,7 +5,7 @@ This version was redesigned using the full project context:
 - Business: Z&S Door Solutions
 - Services: Installation, Supply, Modification
 - Phone: 778-951-8488
-- Email: zsdoor.solutions@gmail.com
+- Email: info@zsdoor.ca
 - Brand visuals from business card and flyer
 - Real work collage used for photography
 - Copy focused on client results: doors that close, lock, and work right
@@ -32,7 +32,7 @@ Most common edits:
 - Text: edit `index.html`
 - Colors: edit variables at the top of `styles.css`
 - Phone: search `778-951-8488` and `tel:+17789518488`
-- Email: search `zsdoor.solutions@gmail.com`
+- Email: search `info@zsdoor.ca`
 - Images: replace files in the `images` folder
 
 ## Publishing note
