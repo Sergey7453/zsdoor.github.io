@@ -153,7 +153,7 @@ body.nav-open {
   align-items: center;
   overflow: hidden;
   border-radius: 14px;
-  background: var(--olive-900);
+  background: var(--olive-800);
   box-shadow: 0 12px 28px rgba(38, 48, 37, 0.12);
 }
 
