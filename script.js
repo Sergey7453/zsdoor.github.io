@@ -1,6 +1,42 @@
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
 const brandLink = document.querySelector('.brand');
+const siteHeader = document.querySelector('.site-header');
+const navOverlay = document.createElement('div');
+
+navOverlay.className = 'nav-overlay';
+document.body.appendChild(navOverlay);
+
+let lastScrollY = window.scrollY;
+
+function updateMobileHeaderVisibility() {
+  if (!siteHeader) {
+    return;
+  }
+
+  if (window.innerWidth > 1020) {
+    siteHeader.classList.remove('site-header--hidden');
+    lastScrollY = window.scrollY;
+    return;
+  }
+
+  if (document.body.classList.contains('nav-open')) {
+    siteHeader.classList.remove('site-header--hidden');
+    lastScrollY = window.scrollY;
+    return;
+  }
+
+  const currentScrollY = window.scrollY;
+  const delta = currentScrollY - lastScrollY;
+
+  if (currentScrollY < 30 || delta < -6) {
+    siteHeader.classList.remove('site-header--hidden');
+  } else if (delta > 6) {
+    siteHeader.classList.add('site-header--hidden');
+  }
+
+  lastScrollY = currentScrollY;
+}
 
 function setNavState(isOpen) {
   if (!navToggle || !navLinks) {
@@ -11,6 +47,7 @@ function setNavState(isOpen) {
   navToggle.setAttribute('aria-expanded', String(isOpen));
   navToggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
   document.body.classList.toggle('nav-open', isOpen);
+  navOverlay.classList.toggle('is-visible', isOpen);
 }
 
 if (brandLink) {
@@ -63,6 +100,10 @@ if (navToggle && navLinks) {
     }
   });
 
+  navOverlay.addEventListener('click', () => {
+    setNavState(false);
+  });
+
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && navLinks.classList.contains('is-open')) {
       setNavState(false);
@@ -74,8 +115,14 @@ if (navToggle && navLinks) {
     if (window.innerWidth > 1020 && navLinks.classList.contains('is-open')) {
       setNavState(false);
     }
+
+    updateMobileHeaderVisibility();
   });
 }
+
+window.addEventListener('scroll', updateMobileHeaderVisibility, { passive: true });
+window.addEventListener('resize', updateMobileHeaderVisibility);
+updateMobileHeaderVisibility();
 
 const year = document.querySelector('#year');
 if (year) {
