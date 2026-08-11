@@ -1777,18 +1777,41 @@ h3 {
   }
 
   .utility-bar__inner,
-  .utility-links,
   .footer__inner {
     flex-direction: column;
     align-items: flex-start;
   }
 
+  .utility-bar__inner {
+    width: 100%;
+    gap: 8px;
+  }
+
   .utility-links {
-    gap: 6px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    width: 100%;
+    gap: 8px 12px;
   }
 
   .utility-link {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    min-width: 0;
+  }
+
+  .utility-link:first-child {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  .utility-link:last-child {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    justify-content: flex-end;
+    text-align: right;
   }
 
   .brand {
@@ -1832,6 +1855,10 @@ h3 {
     min-height: auto;
     display: grid;
     gap: 14px;
+  }
+
+  .hero__photo--main {
+    display: none;
   }
 
   .hero__photo,
