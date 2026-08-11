@@ -153,7 +153,7 @@ body.nav-open {
   align-items: center;
   overflow: hidden;
   border-radius: 14px;
-  background: var(--olive-600);
+  background: var(--olive-900);
   box-shadow: 0 12px 28px rgba(38, 48, 37, 0.12);
 }
 
@@ -1929,12 +1929,7 @@ h3 {
   }
 
   .about__media {
-    height: 220px;
-    min-height: 0;
-    max-height: none;
-    aspect-ratio: auto;
-    position: relative;
-    background: #f7f2e8;
+    display: none;
   }
 
   .about__media img {
@@ -1942,10 +1937,11 @@ h3 {
   }
 
   .about__media::before {
-    content: "";
+    content: none;
     width: 78%;
     height: 70%;
-    background: url("images/logo_image.png") center / contain no-repeat;
+    background: var(--olive-900) url("images/zs_door_solutions_inc_logo.png") center / contain no-repeat;
+    border-radius: 14px;
   }
 
   .how-we-work__item {
