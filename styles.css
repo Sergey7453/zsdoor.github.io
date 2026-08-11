@@ -1608,14 +1608,14 @@ h3 {
 }
 
 .footer__column--logo {
-  min-width: 120px;
+  min-width: 170px;
   align-items: center;
 }
 
 .footer__logo {
-  height: 60px;
+  height: 86px;
   width: auto;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .footer__social {
@@ -1670,7 +1670,7 @@ h3 {
 
 .footer__services-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
 }
 
@@ -1988,6 +1988,10 @@ h3 {
   .footer__column,
   .footer__column--logo {
     align-items: flex-start;
+  }
+
+  .footer__logo {
+    height: 64px;
   }
 
   .footer__column--description,
